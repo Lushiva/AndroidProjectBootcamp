@@ -71,7 +71,8 @@
                 android:text="Craig Mazin and Neil Druckmann"
                 android:layout_marginTop="610dp"
                 android:layout_centerHorizontal="true"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textColor="#0000ff"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -86,7 +87,8 @@
                 android:text="HBO"
                 android:layout_marginTop="670dp"
                 android:layout_centerHorizontal="true"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textColor="#ff000f"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
