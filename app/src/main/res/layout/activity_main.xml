@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/img"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Last Of Us"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="06-02-2023"
+                android:layout_marginTop="255dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Action Drama Adventure Fantasy Sci-Fi"
+                android:layout_marginTop="275dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Movie"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="@string/info_tlou"
+                android:layout_marginTop="340dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producer"
+                android:layout_marginTop="590dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="Craig Mazin and Neil Druckmann"
+                android:layout_marginTop="610dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publisher"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="HBO"
+                android:layout_marginTop="670dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="720dp"
+                android:src="@drawable/img"/>
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1000dp"
+                android:layout_marginBottom="30dp"
+                android:text="Add to Favorite"
+                android:backgroundTint="#48792C"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
