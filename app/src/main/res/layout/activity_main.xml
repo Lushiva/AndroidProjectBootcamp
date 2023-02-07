@@ -37,7 +37,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Action Drama Adventure Fantasy Sci-Fi"
+                android:text="Action     Drama     Adventure"
                 android:layout_marginTop="275dp"
                 android:layout_marginLeft="30dp"
                 android:textSize="20sp"
@@ -72,7 +72,8 @@
                 android:layout_marginTop="610dp"
                 android:layout_centerHorizontal="true"
                 android:textSize="20sp"
-                android:textColor="#0000ff"/>
+                android:textColor="#0000ff"
+                android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,7 +89,8 @@
                 android:layout_marginTop="670dp"
                 android:layout_centerHorizontal="true"
                 android:textSize="20sp"
-                android:textColor="#ff000f"/>
+                android:textColor="#ff000f"
+                android:layout_marginLeft="20dp"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
